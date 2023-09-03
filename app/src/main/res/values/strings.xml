@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProyectoFinal!</string>
+    <string name="comparar">Comparar</string>
+    <string name="ingresa_el_primer_texto">Ingresa el primer texto</string>
+    <string name="ingresa_el_segundo_texto">Ingresa el segundo texto</string>
+</resources>

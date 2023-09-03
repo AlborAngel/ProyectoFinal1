@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".mainActivity">
+
+    <EditText
+        android:id="@+id/com.curso.android.app.proyectofinal.uno.getEditText1"
+        android:layout_width="368dp"
+        android:layout_height="199dp"
+        android:hint="@string/ingresa_el_primer_texto"
+        android:textColorHint="#0D4730"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/com.curso.android.app.proyectofinal.uno.getEditText2"
+        android:layout_width="368dp"
+        android:layout_height="209dp"
+        android:autofillHints=""
+        android:hint="@string/ingresa_el_segundo_texto"
+        android:textColorHint="#0D4730"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/com.curso.android.app.proyectofinal.uno.getEditText1"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/com.curso.android.app.proyectofinal.uno.getCompareButton"
+        android:layout_width="129dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#216312"
+        android:onClick="compareTexts"
+        android:text="@string/comparar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/com.curso.android.app.proyectofinal.uno.getEditText2"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/com.curso.android.app.proyectofinal.uno.getResultTextView"
+        android:layout_width="369dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="44dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/com.curso.android.app.proyectofinal.uno.getCompareButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

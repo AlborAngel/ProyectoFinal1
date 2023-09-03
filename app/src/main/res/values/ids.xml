@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editText1" type="id">EditarTexto1</item>
+    <item name="editText2" type="id">EditarTexto2</item>
+    <item name="compareButton" type="id">BotonComparar</item>
+    <item name="resultTextView" type="id">Resultado</item>
+</resources>
